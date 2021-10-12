@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'AR.dart';
 
 void main() {
   runApp(MyApp());
@@ -135,7 +136,7 @@ class _FullNamePageState extends State<FullNamePage> {
                 padding: EdgeInsets.all(15),
                 child: customInputField("Surname", surnameController)),
             ElevatedButton(
-              onPressed: () => {},
+              onPressed: () => {ARPage()},
               child: Text("Submit"),
               style: ElevatedButton.styleFrom(
                   primary: reddish,

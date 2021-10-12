@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.phy_dimensions">
    <application
-        android:label="phy_dimensions"
+        android:label="Phy Dimensions"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -26,6 +26,10 @@
             <meta-data
               android:name="io.flutter.embedding.android.SplashScreenDrawable"
               android:resource="@drawable/launch_background"
+              />
+            <meta-data
+              android:name="flutterEmbedding"
+              android:value="2" 
               />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
